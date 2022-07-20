@@ -170,8 +170,48 @@ header {
     width: 100%;
 }
 
-.button-bottom {
+.tablet-button {
+    display: flex;
+    display: none;
+    justify-content: center;
+}
+
+/* footer  */
+footer {
+    background-color: #161616;
+    margin-top: 10%;
+    padding: 80px;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav {
     display: flex;
     justify-content: center;
-    display: none;
+    margin: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.font-icon {
+    text-align: center;
+    font-size: 30px;
+}
+
+.font-icon a {
+    color: #FFFFFF;
 }
