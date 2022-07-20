@@ -1,0 +1,177 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
+    width: 1150px;
+    margin: 3rem auto;
+}
+
+header {
+    display: flex;
+    background-color: #1E1E1E;
+    border-radius: 30px;
+}
+
+.header-section {
+    width: 50%;
+    margin-left: 106px;
+    margin-top: 90px;
+}
+
+.header-section h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header-section p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-section a {
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border-radius: 10px;
+}
+
+.header-section a:hover {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+.header-section img {
+    width: 581px;
+    height: 613px;
+}
+
+/* blog */
+.matches {
+    padding-top: 5rem;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+.match-tab {
+    width: 22%;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1.2rem;
+    padding: 2rem;
+    height: 28vh;
+}
+
+.match-tab a {
+    padding: 13px 60px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    width: 135px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.menu-current {
+    background-color: red !important;
+    color: #fff !important;
+}
+
+.new-tab:active {
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.match-start {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.match-details {
+    border: 1px solid #74747456;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.match-team {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.match-team h2 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 1px;
+}
+
+.match-info h4,
+.match-info p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.match-info-blog button {
+    margin: 7px;
+    font-weight: 700;
+    padding: 5px 25px;
+}
+
+.time,
+.comments {
+    display: flex;
+    gap: 10px;
+}
+
+.match-info-blog h4 {
+    font-size: 16px;
+    margin: 5px;
+    color: #161616;
+}
+
+.player-photo img {
+    width: 100%;
+}
+
+.match-commit {
+    display: flex;
+    gap: 30px;
+}
+
+.commit {
+    display: flex;
+    gap: 10px;
+}
+
+.match-info-blog h4 {
+    font-size: 16px;
+    margin: 5px;
+    color: #161616;
+}
+
+.player-photo img {
+    width: 100%;
+}
+
+.button-bottom {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
