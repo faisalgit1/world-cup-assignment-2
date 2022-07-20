@@ -87,7 +87,7 @@ header {
     border-radius: 5px;
 }
 
-.menu-current {
+.current-tab {
     background-color: red !important;
     color: #fff !important;
 }
@@ -168,6 +168,10 @@ header {
 
 .player-photo img {
     width: 100%;
+}
+
+.flag img {
+    width: 90%;
 }
 
 .tablet-button {
