@@ -285,6 +285,10 @@ footer {
         text-overflow: ellipsis;
     }
 
+    .none {
+        display: none;
+    }
+
     .match-start {
         grid-template-columns: repeat(2, 1fr);
     }
