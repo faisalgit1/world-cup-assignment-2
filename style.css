@@ -13,7 +13,7 @@ main {
     margin: 3rem auto;
 }
 
-.btn {
+.click {
     background-color: red;
     border: none;
     padding: 10px 25px;
@@ -23,7 +23,7 @@ main {
     border-radius: 10px;
 }
 
-.btn:hover {
+.click:hover {
     background-color: #000000;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@ main {
 
 
 .header-text h1 {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 3.4em;
     width: 70%;
     margin: 0;
@@ -79,15 +79,16 @@ main {
 
 .match-menu {
     width: 22%;
+    height: 160px;
     background-color: #161616;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    gap: 1.2rem;
-    padding: 2rem;
-    height: 28vh;
+    padding: 30px;
+
 }
 
 .match-menu a {
@@ -102,9 +103,9 @@ main {
     border-radius: 5px;
 }
 
-.menu-current {
+.current {
     background-color: red !important;
-    color: #fff !important;
+    color: #FFFFFF !important;
 }
 
 .new-tab:active {
@@ -191,7 +192,7 @@ footer {
 }
 
 .footer-title {
-    font-size: 2.5em;
+    font-size: 40px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -211,37 +212,20 @@ footer {
 
 
 .hr {
-    width: 90%;
-    background-color: #808080;
-    border: 0;
-    height: 1px;
-
+    width: 80%;
+    background-color: hsl(0, 0%, 50%);
 }
 
 .footer-icon {
     padding: 2rem;
 }
 
-.social-icon {
+.social {
     width: 40px;
     height: 28px;
-    color: #000;
-    background-color: #FFFFFF;
-    border: 1px solid #000;
+    color: whitesmoke;
     padding-top: 12px;
-    border-radius: 22px;
-    -moz-border-radius: 22px;
-    -webkit-border-radius: 22px;
-    -o-border-radius: 22px;
-    font-size: 20px;
-    transition: .5s;
-}
-
-.social-icon:hover {
-    color: #FFFFFF;
-    background-color: #000;
-    border: 1px solid rgba(136, 128, 128, 0.295);
-    cursor: pointer;
+    font-size: 30px;
 }
 
 
@@ -258,8 +242,6 @@ footer {
         background-size: contain;
     }
 
-
-
     .header-text {
         width: 100%;
         padding-top: 0;
@@ -271,18 +253,17 @@ footer {
         width: 50%;
     }
 
-    p.p-banner {
-        display: block !important;
+    .header-text p {
+        color: #FFFFFF;
+        margin: 0;
+        width: 40%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-bottom: 15px;
     }
 
-    .header-text p {
-        color: #fff;
-        margin: 0;
-        padding-bottom: 1rem;
-        width: 50%;
-        overflow: hidden;
-
-        text-overflow: ellipsis;
+    p {
+        display: block;
     }
 
     .none {
@@ -313,8 +294,6 @@ footer {
         justify-content: center;
     }
 
-
-
     .match-menu a {
         border: 1px solid rgba(151, 150, 150, 0.26);
         padding: 10px 20px;
@@ -329,16 +308,9 @@ footer {
         text-align: center;
     }
 
-
 }
 
-p.p-banner {
-    display: none;
-}
-
-
-
-/* mobile devices */
+/* mobile  */
 
 @media only screen and (max-width: 688px) {
     main {
